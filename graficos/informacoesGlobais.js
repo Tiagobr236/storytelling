@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões
+    paragrafo.innerHTML = Voce sabia que o mundo tem <span>${pessoasNoMundo} bilhoes
 
     const container = document.createElementById('graficos-container')
     container.appendChild(paragrafo)
